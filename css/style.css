@@ -1,0 +1,55 @@
+body {
+    font-family:Times New Roman;
+    margin: 0;
+}
+
+.form-container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    background-color: #72438b;
+    color: #0ffff1;
+    border-radius: 100px;
+    transition: box-shadow 0.3s ease;
+}
+
+.form-container:focus-within {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.form-floating {
+    margin-bottom: 1.5rem;
+}
+
+.form-floating input:focus,
+.form-floating textarea:focus {
+    border-color: #0ffff1;
+}
+
+.form-check {
+    margin-left: 0;
+}
+
+.btn {
+    transition: background-color 0.3s ease;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    background-color: #ffb0f4;
+}
+
+.btn-google {
+    background-color: #8b007e;
+    color: #000000;
+}
+
+.text-body-secondary {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.text-body-secondary:hover {
+    color: #151e67;
+}
